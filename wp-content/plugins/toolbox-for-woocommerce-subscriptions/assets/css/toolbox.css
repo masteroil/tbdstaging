@@ -1,0 +1,64 @@
+.wcs-toolbox-popup-opened .wcs-toolbox-popup-overlay {
+	display: flex;
+}
+
+.wcs-toolbox-popup-opened,
+.wcs-toolbox-popup-opened body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.wcs-toolbox-popup-opened body {
+	overflow: hidden;
+}
+
+
+.wcs-toolbox-popup-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.15);
+	z-index: 9999;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wcs-toolbox-popup {
+	max-width: 300px;
+	width: 100%;
+	max-height: 100%;
+	height: auto;
+	overflow: auto;
+	background: white;
+}
+
+.wcs-toolbox-popup h2 {
+	padding: 15px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.wcs-toolbox-popup-actions {
+	padding: 15px;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wcs-toolbox-popup-actions .wcs-toolbox-action {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	outline: none;
+}
+
+.wcs-toolbox-popup-actions .wcs-toolbox-action:hover {
+	font-weight: bold;
+}

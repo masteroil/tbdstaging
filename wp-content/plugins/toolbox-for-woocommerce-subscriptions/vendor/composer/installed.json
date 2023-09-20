@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "shopplugins/wp-updater",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:shopplugins/wp-updater.git",
+                "reference": "03133a73a008d39af8d7afa13e515221331565cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopplugins/wp-updater/zipball/03133a73a008d39af8d7afa13e515221331565cc",
+                "reference": "03133a73a008d39af8d7afa13e515221331565cc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "*",
+                "squizlabs/php_codesniffer": "^3.2",
+                "wp-coding-standards/wpcs": "*"
+            },
+            "time": "2021-08-09T17:35:44+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "authors": [
+                {
+                    "name": "Daniel Espinoza",
+                    "email": "daniel@shopplugins.com",
+                    "homepage": "https://www.shopplugins.com"
+                }
+            ],
+            "description": "WP Updater plugin for Shop Plugins",
+            "support": {
+                "source": "https://github.com/shopplugins/wp-updater/tree/master",
+                "issues": "https://github.com/shopplugins/wp-updater/issues"
+            },
+            "install-path": "../shopplugins/wp-updater"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

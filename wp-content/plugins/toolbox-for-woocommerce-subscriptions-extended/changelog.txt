@@ -1,0 +1,17 @@
+==== Toolbox for WooCommerce Subscriptions - Extended ====
+
+2022-01-14 Version 1.0.4
+* Added code to use discount of 7.5% for subscription products. 
+
+2021-11-29 Version 1.0.3
+* Added shipping re-calculation when items in subscription are changed.
+
+2021-09-30 Version 1.0.2
+* Prices change on edit subscription page when quantity is changed.
+
+2021-09-21 Version 1.0.1
+* Add checkbox to the categories to make them show in the add to subscription dropdown.
+* Change from Select2 to traditional dropdown.
+
+2021-09-09 Version 1.0.0
+* First version

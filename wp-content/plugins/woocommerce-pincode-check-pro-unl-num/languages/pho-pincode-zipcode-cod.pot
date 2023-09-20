@@ -1,0 +1,648 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-22 05:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: list_pincodes.php:155 list_pincodes.php:182 list_pincodes.php:603 
+#: add_pincode.php:83
+msgid "Pincode"
+msgstr ""
+
+#: list_pincodes.php:156 list_pincodes.php:183 list_pincodes.php:611 
+#: add_pincode.php:91
+msgid "City"
+msgstr ""
+
+#: list_pincodes.php:157 list_pincodes.php:184 list_pincodes.php:619 
+#: add_pincode.php:99
+msgid "State"
+msgstr ""
+
+#: list_pincodes.php:158 list_pincodes.php:185 list_pincodes.php:627 
+#: add_pincode.php:107
+msgid "Delivery within days"
+msgstr ""
+
+#: list_pincodes.php:159 list_pincodes.php:186
+msgid "Cash on delivery"
+msgstr ""
+
+#: list_pincodes.php:524
+msgid "Deleted Successfully"
+msgstr ""
+
+#: list_pincodes.php:566
+msgid "Updated Successfully"
+msgstr ""
+
+#: list_pincodes.php:574 add_pincode.php:62
+msgid "Please Fill Valid Data"
+msgstr ""
+
+#: list_pincodes.php:591
+msgid "Update Zip Code"
+msgstr ""
+
+#: list_pincodes.php:635 add_pincode.php:115
+msgid "Enable Cash on delivery For This Pincode"
+msgstr ""
+
+#: list_pincodes.php:637 add_pincode.php:117
+msgid "No"
+msgstr ""
+
+#: list_pincodes.php:639 add_pincode.php:119
+msgid "Yes"
+msgstr ""
+
+#: list_pincodes.php:647 add_pincode.php:129
+msgid "Back"
+msgstr ""
+
+#: list_pincodes.php:667
+msgid "Zip Code List"
+msgstr ""
+
+#: list_pincodes.php:667
+msgid "Add New"
+msgstr ""
+
+#: list_pincodes.php:678
+msgid "Zip Code List of Product id"
+msgstr ""
+
+#: add_pincode.php:37
+msgid "Added Successfully"
+msgstr ""
+
+#: add_pincode.php:44 admin-setting.php:192
+msgid "Something Went Wrong Please Try Again With Valid Data"
+msgstr ""
+
+#: add_pincode.php:53
+msgid "This Pincode Already Exists"
+msgstr ""
+
+#: add_pincode.php:70
+msgid "Add Zip Code"
+msgstr ""
+
+#: pincode_widget.php:9
+msgid "Phoeniixx Pincode Check Widget"
+msgstr ""
+
+#: pincode_widget.php:12
+msgid "Phoeniixx pincode check widget."
+msgstr ""
+
+#: admin-setting.php:16
+msgid "Successfully Deleted All Pincodes"
+msgstr ""
+
+#: admin-setting.php:183
+msgid "Setting updated"
+msgstr ""
+
+#: admin-setting.php:259
+msgid "WooCommerce Pincode Check - Plugin Options"
+msgstr ""
+
+#: admin-setting.php:263
+msgid "Settings"
+msgstr ""
+
+#: admin-setting.php:271
+msgid "Enable Pincode Check"
+msgstr ""
+
+#: admin-setting.php:279
+msgid "Pincode length"
+msgstr ""
+
+#: admin-setting.php:287
+msgid "Show on product page"
+msgstr ""
+
+#: admin-setting.php:295
+msgid "Validation on product page"
+msgstr ""
+
+#: admin-setting.php:303
+msgid "Delivery Date Label"
+msgstr ""
+
+#: admin-setting.php:311
+msgid "Delivery Date Help Text"
+msgstr ""
+
+#: admin-setting.php:319
+msgid "COD Label"
+msgstr ""
+
+#: admin-setting.php:327
+msgid "COD Help Text"
+msgstr ""
+
+#: admin-setting.php:335
+msgid "COD Message(Available)"
+msgstr ""
+
+#: admin-setting.php:343
+msgid "COD Message(Not Available)"
+msgstr ""
+
+#: admin-setting.php:351
+msgid "Error Message on blank & less than Pincode length"
+msgstr ""
+
+#: admin-setting.php:359
+msgid "Error Message After Checking Pincode"
+msgstr ""
+
+#: admin-setting.php:367
+msgid "Delivery on Saturday"
+msgstr ""
+
+#: admin-setting.php:369 admin-setting.php:379 admin-setting.php:390 
+#: admin-setting.php:400 admin-setting.php:410 admin-setting.php:420 
+#: admin-setting.php:430 admin-setting.php:440 admin-setting.php:460 
+#: admin-setting.php:482 admin-setting.php:496 admin-setting.php:720 
+#: admin-setting.php:732
+msgid "ON"
+msgstr ""
+
+#: admin-setting.php:371 admin-setting.php:381 admin-setting.php:392 
+#: admin-setting.php:402 admin-setting.php:412 admin-setting.php:422 
+#: admin-setting.php:432 admin-setting.php:442 admin-setting.php:462 
+#: admin-setting.php:484 admin-setting.php:498 admin-setting.php:722 
+#: admin-setting.php:734
+msgid "OFF"
+msgstr ""
+
+#: admin-setting.php:377
+msgid "Delivery on Sunday"
+msgstr ""
+
+#: admin-setting.php:388
+msgid "Enable Check Pincode Based COD on Checkout Page"
+msgstr ""
+
+#: admin-setting.php:398
+msgid "Enable Check Pincode Based Place Order on Checkout Page"
+msgstr ""
+
+#: admin-setting.php:408
+msgid "Show State on Product Page"
+msgstr ""
+
+#: admin-setting.php:418
+msgid "Show City on Product Page"
+msgstr ""
+
+#: admin-setting.php:428
+msgid "Show Delivery Estimation"
+msgstr ""
+
+#: admin-setting.php:438
+msgid "Show COD Area"
+msgstr ""
+
+#: admin-setting.php:448
+msgid "Show Date or Days"
+msgstr ""
+
+#: admin-setting.php:450
+msgid "Date"
+msgstr ""
+
+#: admin-setting.php:452
+msgid "Days"
+msgstr ""
+
+#: admin-setting.php:458
+msgid "Validate (on checkout page)"
+msgstr ""
+
+#: admin-setting.php:474
+msgid "Pincode check popup"
+msgstr ""
+
+#: admin-setting.php:478
+msgid "Autoload popup Home"
+msgstr ""
+
+#: admin-setting.php:492
+msgid "Popup on click of \"add to cart\" button on shop/category page"
+msgstr ""
+
+#: admin-setting.php:506
+msgid "Let user close popup if not validate"
+msgstr ""
+
+#: admin-setting.php:510 admin-setting.php:524
+msgid "NO"
+msgstr ""
+
+#: admin-setting.php:512 admin-setting.php:526
+msgid "YES"
+msgstr ""
+
+#: admin-setting.php:520
+msgid "Block user to access website if not validate"
+msgstr ""
+
+#: admin-setting.php:535
+msgid "Popup Info Text"
+msgstr ""
+
+#: admin-setting.php:543
+msgid "Popup Pincode Text Field Placeholder text"
+msgstr ""
+
+#: admin-setting.php:552
+msgid "Message For valid Pincode"
+msgstr ""
+
+#: admin-setting.php:562
+msgid "Popup Entrance Effect"
+msgstr ""
+
+#: admin-setting.php:624 admin-setting.php:812
+msgid "rollIn"
+msgstr ""
+
+#: admin-setting.php:634
+msgid "Popup Exits Effect"
+msgstr ""
+
+#: admin-setting.php:696 admin-setting.php:883
+msgid "hinge"
+msgstr ""
+
+#: admin-setting.php:714
+msgid "Enable Help Text"
+msgstr ""
+
+#: admin-setting.php:718
+msgid "Delivery Date"
+msgstr ""
+
+#: admin-setting.php:730
+msgid "COD"
+msgstr ""
+
+#: admin-setting.php:746
+msgid "Animation on COD and Delivered By Result"
+msgstr ""
+
+#: admin-setting.php:750
+msgid "Animation on COD and Delivered Info Entrance Result"
+msgstr ""
+
+#: admin-setting.php:821
+msgid "Animation on COD and Delivered Info Exit Result"
+msgstr ""
+
+#: admin-setting.php:901
+msgid "Styling of Check Pincode Functionality on Product Page"
+msgstr ""
+
+#: admin-setting.php:906
+msgid "Box Background color"
+msgstr ""
+
+#: admin-setting.php:915
+msgid "Check Pincode Label Text Color"
+msgstr ""
+
+#: admin-setting.php:925
+msgid "Box Border Color"
+msgstr ""
+
+#: admin-setting.php:934
+msgid "\"Check/Change\" Button Color"
+msgstr ""
+
+#: admin-setting.php:943
+msgid "\"Check/Change\" Button Text Color"
+msgstr ""
+
+#: admin-setting.php:952
+msgid "Tooltip Border Color"
+msgstr ""
+
+#: admin-setting.php:960
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: admin-setting.php:968
+msgid "Tooltip Text Color"
+msgstr ""
+
+#: admin-setting.php:976
+msgid "Delivered By Text Color"
+msgstr ""
+
+#: admin-setting.php:984
+msgid "Cash On Delivery Text Color"
+msgstr ""
+
+#: admin-setting.php:992
+msgid "Date/Days Color"
+msgstr ""
+
+#: admin-setting.php:1001
+msgid "COD Message Color"
+msgstr ""
+
+#: admin-setting.php:1010
+msgid "Error Message Color"
+msgstr ""
+
+#: admin-setting.php:1026
+msgid "Image Options"
+msgstr ""
+
+#: admin-setting.php:1030
+msgid "Help Text Icon Image Size"
+msgstr ""
+
+#: admin-setting.php:1032 admin-setting.php:1042
+msgid "Height(px)"
+msgstr ""
+
+#: admin-setting.php:1034 admin-setting.php:1044
+msgid "Width(px)"
+msgstr ""
+
+#: admin-setting.php:1040
+msgid "Tooltip Cancel Icon Image Size"
+msgstr ""
+
+#: admin-setting.php:1052
+msgid "Help Text Icon Image Upload"
+msgstr ""
+
+#: admin-setting.php:1061
+msgid "Tooltip Cancel Icon Image Upload"
+msgstr ""
+
+#: admin-setting.php:1072
+msgid "Save"
+msgstr ""
+
+#: admin-setting.php:1072
+msgid "reset"
+msgstr ""
+
+#: admin-setting.php:1082
+msgid "Delete All PIncodes From Pincode List"
+msgstr ""
+
+#: admin-setting.php:1084
+msgid "Delete All"
+msgstr ""
+
+#: pincode_shortcode.php:125 pincode_shortcode.php:402
+msgid "Available at"
+msgstr ""
+
+#: pincode_shortcode.php:131 pincode_shortcode.php:408
+msgid "Check Availability At"
+msgstr ""
+
+#: import_page.php:14
+msgid "Please Upload CSV Format"
+msgstr ""
+
+#: import_page.php:33
+msgid "CSV Uploaded"
+msgstr ""
+
+#: import_page.php:45
+msgid "Something Went Wrong, Please Try Again"
+msgstr ""
+
+#: import_page.php:136
+msgid "Import Zip Codes in CSV Format"
+msgstr ""
+
+#: import_page.php:140
+msgid "Upload File"
+msgstr ""
+
+#: import_page.php:149
+msgid "Maximum upload file size"
+msgstr ""
+
+#: import_page.php:149
+msgid "MB"
+msgstr ""
+
+#: import_page.php:151
+msgid "Example CSV File"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce check pincode/zipcode for shipping and cod"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Woocommerce Product Pincode Check with Unlimited number length of input "
+"pincode."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.phoeniixx.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "phoeniixx"
+msgstr ""
+
+msgid "Bounce In"
+msgstr ""
+
+msgid "Bounce In Down"
+msgstr ""
+
+msgid "Bounce In Left"
+msgstr ""
+
+msgid "Bounce In Right"
+msgstr ""
+
+msgid "Bounce In Up"
+msgstr ""
+
+msgid "Fade In"
+msgstr ""
+
+msgid "Fade In Down"
+msgstr ""
+
+msgid "Fade In Down Big"
+msgstr ""
+
+msgid "Fade In Left"
+msgstr ""
+
+msgid "Fade In Left Big"
+msgstr ""
+
+msgid "Fade In Right"
+msgstr ""
+
+msgid "Fade In Right Big"
+msgstr ""
+
+msgid "Fade In Up"
+msgstr ""
+
+msgid "Fade In Up Big"
+msgstr ""
+
+msgid "Rotate In"
+msgstr ""
+
+msgid "Rotate In Down Left"
+msgstr ""
+
+msgid "Rotate In Down Right"
+msgstr ""
+
+msgid "Rotate In Up Left"
+msgstr ""
+
+msgid "Rotate In Up Right"
+msgstr ""
+
+msgid "SlideIn Up"
+msgstr ""
+
+msgid "Slide In Down"
+msgstr ""
+
+msgid "Slide In Left"
+msgstr ""
+
+msgid "Slide In Right"
+msgstr ""
+
+msgid "Zoom In"
+msgstr ""
+
+msgid "Zoom In Down"
+msgstr ""
+
+msgid "Zoom In Left"
+msgstr ""
+
+msgid "Zoom In Right"
+msgstr ""
+
+msgid "Zoom In Up"
+msgstr ""
+
+msgid "Bounce Out"
+msgstr ""
+
+msgid "Bounce Out Down"
+msgstr ""
+
+msgid "Bounce Out Left"
+msgstr ""
+
+msgid "Bounce Out Right"
+msgstr ""
+
+msgid "Bounce Out Up"
+msgstr ""
+
+msgid "Fade Out"
+msgstr ""
+
+msgid "Fade Out Down"
+msgstr ""
+
+msgid "Fade Out Down Big"
+msgstr ""
+
+msgid "Fade Out Left Big"
+msgstr ""
+
+msgid "Fade Out Right"
+msgstr ""
+
+msgid "Fade Out Right Big"
+msgstr ""
+
+msgid "Fade Out Up"
+msgstr ""
+
+msgid "Fade Out Up Big"
+msgstr ""
+
+msgid "Rotate Out"
+msgstr ""
+
+msgid "Rotate Out Down Left"
+msgstr ""
+
+msgid "Rotate Out Down Right"
+msgstr ""
+
+msgid "Rotate Out Up Left"
+msgstr ""
+
+msgid "Rotate Out Up Right"
+msgstr ""
+
+msgid "Slide Out Up"
+msgstr ""
+
+msgid "Slide Out Down"
+msgstr ""
+
+msgid "Slide Out Left"
+msgstr ""
+
+msgid "Slide Out Right"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr ""
+
+msgid "Zoom Out Down"
+msgstr ""
+
+msgid "Zoom Out Left"
+msgstr ""
+
+msgid "Zoom Out Right"
+msgstr ""
+
+msgid "Zoom Out Up"
+msgstr ""
+
+msgid "Roll Out"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Enter Your Pincode"
+msgstr ""

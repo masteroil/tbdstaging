@@ -1,0 +1,152 @@
+.pc-popup {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.pc-popup.open {
+    display: block;
+}
+.pc-popup-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.pc-popup-modal {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: #2B2B2B;
+    /*border: 1px solid #777777;*/
+    box-sizing: border-box;
+    box-shadow: 0px 3px 50px rgb(0 0 0 / 67%);
+    /*border-radius: 10px;*/
+    padding: 45px 40px;
+}
+.pc-popup-modal .wc-delivery-time-response {
+    width: 100%;
+}
+body .pc-popup .pc-popup-modal div#my_custom_checkout_field2 p#pincode_field_idp > label {
+    display: none !important;
+}
+.pc-popup-modal .wc-delivery-time-response {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.pc-popup-modal a#change_pin::after {
+    content: 'Change postcode';
+}
+.pc-popup-modal span#avlpin {
+    display: flex;
+}
+.pc-popup-modal span#avlpin p#avat {
+    margin-bottom: 0 !important;
+}
+.pc-popup-modal span#avlpin span.phoe-green-location-icon {
+    display: none;
+}
+body .pc-popup-modal .delivery-info-wrap.delivery-info-wrap2 {
+    display: none !important;
+}
+
+.choose-fequancy input[type="checkbox"]:checked, 
+.choose-fequancy input[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.choose-fequancy input[type="checkbox"]:checked + label, 
+.choose-fequancy input[type="checkbox"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+}
+@media (max-width: 487px) {
+    .choose-fequancy input[type="checkbox"]:checked + label, 
+.choose-fequancy input[type="checkbox"]:not(:checked) + label {
+    line-height: 14px;
+}
+}
+.choose-fequancy input[type="checkbox"]:checked + label:before, 
+.choose-fequancy input[type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    width: 22px;
+    height: 22px;
+    border: 2px solid #ddd;
+    border-radius: 100%;
+    background: transparent;
+}
+.choose-fequancy input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.choose-fequancy input[type="checkbox"]:checked + label:after, 
+.choose-fequancy input[type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    /* -webkit-transition: all .2s ease;
+    transition: all .2s ease; */
+}
+.choose-fequancy input.radio-customc:checked + .radio-custom-labelc:after, .radio-custom-labelc:before {
+    top: 12px !important;
+    left: 10px !important;
+}
+.choose-fequancy input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.choose-fequancy input[type="checkbox"]:checked + .radio-custom-labelc:after {
+    background-image: url(https://sprattmortgages.com.au/wp-content/uploads/2021/08/thik.png) !important;
+    background: transparent;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 22px;
+    transform: none;
+    transition: none;
+}
+
+/* body .wcsatt-options-product {
+    display: block;
+}
+body .wcsatt-options-wrapper * {
+    color: #000;
+}
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+    left: 0;
+} */
+div#woof_results_by_ajax li.product .subscribe-tps select, body div#woof_results_by_ajax li.product .check-filter {
+    margin-bottom: 15px !important;
+}
+div#woof_results_by_ajax li.product p.stock {
+    display: none;
+}
+div#woof_results_by_ajax li.product .wcsatt-options-wrapper {
+    padding: 0;
+}
+div#woof_results_by_ajax li.product button.single_add_to_cart_button.button.alt {
+    margin: 0 auto;
+    display: block;
+}
+span.quantity-box {
+    display: none !important;
+}

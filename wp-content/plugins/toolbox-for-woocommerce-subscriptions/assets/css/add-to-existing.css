@@ -1,0 +1,9 @@
+/** Add to Subscription template */
+.jgtb-add-to-subscription label {
+	display: block;
+	margin-bottom: 10px;
+}
+.jgtb-add-to-subscription select {
+	margin-bottom: 10px;
+}
+

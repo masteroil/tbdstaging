@@ -1,0 +1,640 @@
+# Copyright (C) 2023 Shop Plugins
+# This file is distributed under the same license as the Toolbox for WooCommerce Subscriptions plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Toolbox for WooCommerce Subscriptions 1.4.27\n"
+"Report-Msgid-Bugs-To: https://shopplugins.com/support/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-15T22:35:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: jg-toolbox\n"
+
+#. Plugin Name of the plugin
+msgid "Toolbox for WooCommerce Subscriptions"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://shopplugins.com/plugins/toolbox-for-woocommerce-subscriptions/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds additional functionality to stores that use WooCommerce and WooCommerce Subscriptions."
+msgstr ""
+
+#. Author of the plugin
+msgid "Shop Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://shopplugins.com"
+msgstr ""
+
+#. translators: placeholder is ID of subscription.
+#: inc/AddProductToSubscription.php:125
+msgctxt "Notice after product added to subscription."
+msgid "The item has been added to subscription #%s"
+msgstr ""
+
+#: inc/admin/Settings.php:20
+msgid "Toolbox for Subscriptions"
+msgstr ""
+
+#: inc/admin/Settings.php:79
+msgid "Features"
+msgstr ""
+
+#: inc/admin/Settings.php:86
+msgid "Skip next scheduled payment"
+msgstr ""
+
+#: inc/admin/Settings.php:87
+msgid "Whether skip next schedule functionality is available."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:92
+msgid "Skip next scheduled payment will automatically advance the subscription to the next payment date after the one that is coming up without charging the customer or generating an order for it."
+msgstr ""
+
+#: inc/admin/Settings.php:97
+msgid "Ship now and keep schedule"
+msgstr ""
+
+#: inc/admin/Settings.php:98
+msgid "Whether ship now and keep schedule functionality is available."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:103
+msgid "Shipping a subscription now will charge the customer right away and generate an order. It will also keep the original schedule, so the next payment date will remain what it was before they had an order generated."
+msgstr ""
+
+#: inc/admin/Settings.php:108
+msgid "Ship now and reschedule payment"
+msgstr ""
+
+#: inc/admin/Settings.php:109
+msgid "Whether ship now and reschedule functionality is available."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:114
+msgid "Shipping a subscription now will charge the customer right away and generate an order. It will reschedule the next payment day with relation to when the customer requested it. For example if the subscription is monthly, and the next payment would be 10 days in the future, this will move the next payment date to be a month from the day."
+msgstr ""
+
+#: inc/admin/Settings.php:120
+#: inc/admin/Settings.php:121
+msgid "Reschedule payment from next payment date"
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:126
+msgid "It will reschedule the next payment day with relation to current next payment date. For example if the subscription is monthly, and the next payment would be 10 days in the future, this will move the next payment date to be a month + 10 days from the day."
+msgstr ""
+
+#: inc/admin/Settings.php:132
+msgid "Edit subscription details"
+msgstr ""
+
+#: inc/admin/Settings.php:133
+msgid "Whether edit subscription details functionality is available."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:138
+msgid "This will allow customers to edit their subscription details in a more streamlined way. The edit subscription screen allows them to change the next payment date, the quantities of products in the subscription, the interval and period of the subscription, and the shipping and billing addresses."
+msgstr ""
+
+#: inc/admin/Settings.php:144
+#: inc/admin/Settings.php:145
+msgid "Allow quantity change in edit details?"
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:150
+msgid "If this box is ticked, customers will be able to change the quantity of their products on their subscriptions. Does not change bulk edit quantities."
+msgstr ""
+
+#: inc/admin/Settings.php:156
+#: inc/admin/Settings.php:157
+msgid "Allow product variation change in edit details?"
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:162
+msgid "If this box is ticked, customers will be able to change the variation of their products on their subscriptions."
+msgstr ""
+
+#: inc/admin/Settings.php:168
+#: inc/admin/Settings.php:169
+msgid "Allow frequency change in edit details?"
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:174
+msgid "If this box is ticked, customers will be able to change the shipping frequency of their subscriptions."
+msgstr ""
+
+#: inc/admin/Settings.php:180
+msgid "Bulk edit / ship subscriptions"
+msgstr ""
+
+#: inc/admin/Settings.php:181
+msgid "Whether customers can ship multiple subscriptions from their subscriptions screen."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:186
+msgid "Customers can select subscriptions and choose to ship them now and keep schedule / reschedule it. They can also edit the quantities of items on those subscriptions."
+msgstr ""
+
+#: inc/admin/Settings.php:191
+msgid "Change next payment date"
+msgstr ""
+
+#: inc/admin/Settings.php:192
+msgid "Whether customers can change the next payment date of the subscription themselves."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:197
+msgid "Customers can choose a new next payment date from a date dropdown. The earliest they can choose is the next day."
+msgstr ""
+
+#: inc/admin/Settings.php:202
+msgid "Add products to existing subscriptions"
+msgstr ""
+
+#: inc/admin/Settings.php:203
+msgid "Whether customers can add subscription products to existing subscriptions."
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags
+#: inc/admin/Settings.php:208
+msgid "Customers can add products to existing subscriptions. The products' own period and interval will be ignored, and the subscription's interval and period will be used."
+msgstr ""
+
+#: inc/admin/Settings.php:219
+msgid "Button text"
+msgstr ""
+
+#: inc/admin/Settings.php:226
+msgid "Skip next schedule button text"
+msgstr ""
+
+#: inc/admin/Settings.php:230
+msgid "Skip next payment"
+msgstr ""
+
+#: inc/admin/Settings.php:236
+msgid "Ship now keep schedule button text"
+msgstr ""
+
+#: inc/admin/Settings.php:240
+msgid "Ship now, keep schedule"
+msgstr ""
+
+#: inc/admin/Settings.php:246
+msgid "Ship now reschedule button text"
+msgstr ""
+
+#: inc/admin/Settings.php:250
+msgid "Ship now, reschedule from today"
+msgstr ""
+
+#: inc/admin/Settings.php:256
+msgid "Ship now reschedule from next payment button text"
+msgstr ""
+
+#: inc/admin/Settings.php:260
+msgid "Ship now, reschedule from next payment"
+msgstr ""
+
+#: inc/admin/Settings.php:266
+msgid "Edit subscription details button text"
+msgstr ""
+
+#: inc/admin/Settings.php:270
+msgid "Edit details"
+msgstr ""
+
+#: inc/admin/Settings.php:293
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/Settings.php:294
+msgid "Docs"
+msgstr ""
+
+#: inc/admin/Settings.php:295
+msgid "Support"
+msgstr ""
+
+#: inc/BulkChangeSubscriptions.php:230
+msgctxt "Notice when ship now failed for some subscriptions"
+msgid "Some subscriptions could not be processed. Please get in touch with us."
+msgstr ""
+
+#: inc/BulkChangeSubscriptions.php:232
+msgctxt "Notice when all ship now succeeded"
+msgid "We have processed all the subscriptions."
+msgstr ""
+
+#: inc/BulkChangeSubscriptions.php:251
+msgctxt "Notice when some quantity did not update"
+msgid "Some item quantities could not be processed. Please get in touch with us."
+msgstr ""
+
+#: inc/BulkChangeSubscriptions.php:253
+msgctxt "Notice after all quantity updates succeeded."
+msgid "We have updated the quantities on requested items."
+msgstr ""
+
+#. translators: placeholder is the order number for the subscription.
+#: inc/EditSubscriptionTemplate.php:84
+msgctxt "Used in page's <h1> attribute"
+msgid "Edit details for Subscription #%s"
+msgstr ""
+
+#: inc/EditSubscriptionTemplate.php:131
+msgid "Shipping address updated"
+msgstr ""
+
+#: inc/EditSubscriptionTemplate.php:135
+msgid "Billing address updated"
+msgstr ""
+
+#: inc/EditSubscriptionTemplate.php:139
+msgid "Product quantities updated."
+msgstr ""
+
+#: inc/EditSubscriptionTemplate.php:176
+msgid "Product Variation updated."
+msgstr ""
+
+#: inc/emails/AdminNextPaymentChanged.php:16
+msgid "Subscription Date Changed (Admin)"
+msgstr ""
+
+#: inc/emails/AdminNextPaymentChanged.php:17
+msgid "This email is sent to the administrator when a customer changes the next renewal date of a subscription."
+msgstr ""
+
+#: inc/emails/AdminNextPaymentChanged.php:43
+msgid "[{site_title}]: Subscription Payment Date Changed: #{order_number}"
+msgstr ""
+
+#: inc/emails/AdminNextPaymentChanged.php:52
+msgid "Subscription Payment Date Changed: #{order_number}"
+msgstr ""
+
+#: inc/emails/AdminNextPaymentChanged.php:81
+msgid "Customer has changed payment date on Subscription #{order_number}. Next Date: {next_date}"
+msgstr ""
+
+#: inc/emails/AdminSkipRenewal.php:18
+msgid "Skipped Subscription (Admin)"
+msgstr ""
+
+#: inc/emails/AdminSkipRenewal.php:19
+msgid "This email is sent to the administrator when a customer skips a subscription renewal."
+msgstr ""
+
+#: inc/emails/AdminSkipRenewal.php:44
+#: inc/emails/CustomerSkipRenewal.php:42
+msgid "[{site_title}]: Subscription Skipped: #{order_number}"
+msgstr ""
+
+#: inc/emails/AdminSkipRenewal.php:53
+#: inc/emails/CustomerSkipRenewal.php:51
+msgid "Subscription Skipped: #{order_number}"
+msgstr ""
+
+#: inc/emails/AdminSkipRenewal.php:80
+msgid "Customer skipped subscription #{order_number}. Next Date: {next_date}"
+msgstr ""
+
+#: inc/emails/CustomerNextPaymentChanged.php:16
+msgid "Subscription Date Changed"
+msgstr ""
+
+#: inc/emails/CustomerNextPaymentChanged.php:17
+msgid "This email is sent to the customer when they change the next renewal date of a subscription."
+msgstr ""
+
+#: inc/emails/CustomerNextPaymentChanged.php:41
+msgid "[{site_title}]: Subscription Payment Date Changed #{order_number}"
+msgstr ""
+
+#: inc/emails/CustomerNextPaymentChanged.php:50
+msgid "Subscription #{order_number} Next Payment Date Changed"
+msgstr ""
+
+#: inc/emails/CustomerNextPaymentChanged.php:79
+msgid "You have changed tje next payment date on Subscription #{order_number}. Next Date: {next_date}"
+msgstr ""
+
+#: inc/emails/CustomerSkipRenewal.php:18
+msgid "Skipped Subscription"
+msgstr ""
+
+#: inc/emails/CustomerSkipRenewal.php:19
+msgid "This email is sent to the customer when they skip a subscription renewal."
+msgstr ""
+
+#: inc/emails/CustomerSkipRenewal.php:79
+msgid "You have skipped subscription #{order_number}. Next Date: {next_date}"
+msgstr ""
+
+#: inc/ProcessingFunctions.php:359
+msgid "The subscription frequency has been updated!"
+msgstr ""
+
+#: inc/ProcessingFunctions.php:450
+msgid "Next shipment date has been successfully updated"
+msgstr ""
+
+#: inc/ShipNowKeep.php:66
+msgctxt "Notice after ship now keep date request succeeded."
+msgid "Your order has been placed!"
+msgstr ""
+
+#: inc/ShipNowReschedule.php:72
+msgctxt "Notice after ship now adjust date request succeeded."
+msgid "Your order has been placed!"
+msgstr ""
+
+#: inc/SkipNextSchedule.php:77
+msgctxt "Notice after skip next date succeeded."
+msgid "Your next shipment will be skipped."
+msgstr ""
+
+#: inc/UtilityFunctions.php:25
+msgid "Cancel"
+msgstr ""
+
+#: inc/UtilityFunctions.php:26
+msgid "Yes"
+msgstr ""
+
+#: inc/UtilityFunctions.php:27
+msgid "Are you sure you want to skip next payment?"
+msgstr ""
+
+#: inc/UtilityFunctions.php:28
+msgid "Are you sure you want to ship now and keep schedule?"
+msgstr ""
+
+#: inc/UtilityFunctions.php:29
+msgid "Are you sure you want to ship now and reschedule from today?"
+msgstr ""
+
+#: inc/UtilityFunctions.php:183
+msgctxt "Error notice while sanitizing date format"
+msgid "New payment date is in an invalid format. Please check again."
+msgstr ""
+
+#: inc/UtilityFunctions.php:186
+msgctxt "Error notice when next payment is in the past"
+msgid "New payment date is in the past."
+msgstr ""
+
+#: inc/UtilityFunctions.php:189
+msgctxt "Error notice when validating new next payment date"
+msgid "New payment date is too close to today, it might lead to renewal errors. Please use one of the \"ship now\" options."
+msgstr ""
+
+#. translators: $1: ID of subscription, $2: recurrence, eg "2 months", $3: next payment date
+#: inc/UtilityFunctions.php:373
+msgid "#%1$d - every %2$s - next: %3$s"
+msgstr ""
+
+#: inc/ValidationFunctions.php:18
+msgctxt "Error notice while validating subscription ownership during all actions"
+msgid "That subscription does not exist. Please contact us if you need assistance."
+msgstr ""
+
+#: inc/ValidationFunctions.php:22
+msgctxt "Error notice while validating subscription ownership during all actions."
+msgid "This does not appear to be one of your subscriptions."
+msgstr ""
+
+#. translators: placeholder is an error code for better identification.
+#: inc/ValidationFunctions.php:44
+msgctxt "Error notice when a skip next request fails nonce verification"
+msgid "Security error. Please contact us if you need assistance. %s."
+msgstr ""
+
+#. translators: Placeholder is for error code.
+#: inc/ValidationFunctions.php:63
+msgctxt "Error notice when a ship now keep date fails nonce verification"
+msgid "Security error. Please contact us if you need assistance. %s."
+msgstr ""
+
+#. translators: placeholder is error code for easier identification of issue.
+#: inc/ValidationFunctions.php:82
+msgctxt "Error notice when ship now adjust date fails nonce verification"
+msgid "Security error. Please contact us if you need assistance. %s."
+msgstr ""
+
+#. translators: Placeholder is for error code.
+#: inc/ValidationFunctions.php:99
+msgctxt "Error notice when edit details fails nonce verification"
+msgid "Security error. Please contact us if you need assistance. %s."
+msgstr ""
+
+#. translators: Placeholder is for error code.
+#: inc/ValidationFunctions.php:116
+msgctxt "Notice text when a validation error happens"
+msgid "Security error. Please contact us if you need assistance. %s."
+msgstr ""
+
+#: templates/myaccount/choose-new-frequency.php:10
+msgid "Change Frequency"
+msgstr ""
+
+#: templates/myaccount/choose-new-frequency.php:37
+msgctxt "Button to submit date change"
+msgid "Go"
+msgstr ""
+
+#: templates/myaccount/choose-next-ship-date.php:14
+msgid "Change Next Payment Date"
+msgstr ""
+
+#: templates/myaccount/choose-next-ship-date.php:26
+msgid "Go"
+msgstr ""
+
+#: templates/myaccount/choose-next-ship-date.php:30
+msgid "None"
+msgstr ""
+
+#: templates/myaccount/edit-subscription-address.php:11
+msgid "Billing Address"
+msgstr ""
+
+#: templates/myaccount/edit-subscription-address.php:11
+msgid "Shipping Address"
+msgstr ""
+
+#: templates/myaccount/edit-subscription-products.php:16
+msgctxt "table headings in notification email"
+msgid "Product"
+msgstr ""
+
+#: templates/myaccount/edit-subscription-products.php:17
+#: templates/myaccount/my-subscriptions.php:48
+msgctxt "table heading"
+msgid "Total"
+msgstr ""
+
+#: templates/myaccount/edit-subscription-products.php:32
+msgid "Are you sure you want remove this item from your subscription?"
+msgstr ""
+
+#. translators: %1$s is the number of the file, %2$s: the name of the file
+#: templates/myaccount/edit-subscription-products.php:93
+msgctxt "Used as link text in view-subscription template"
+msgid "Download file %1$s: %2$s"
+msgid_plural "Download file %1$s: %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/myaccount/edit-subscription.php:19
+msgid "Invalid Subscription."
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:31
+#: templates/myaccount/my-subscriptions.php:46
+#: templates/myaccount/my-subscriptions.php:76
+msgid "Status"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:35
+msgctxt "table heading"
+msgid "Start Date"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:42
+msgctxt "admin subscription table header"
+msgid "Last Payment Date"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:43
+msgctxt "admin subscription table header"
+msgid "Next Payment Date"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:44
+msgctxt "table heading"
+msgid "End Date"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:45
+msgctxt "admin subscription table header"
+msgid "Trial End Date"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:85
+msgctxt "Heading on the edit subscription details page."
+msgid "Products"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:109
+msgctxt "Heading on the edit subscription details page"
+msgid "Customer details"
+msgstr ""
+
+#. translators: there is markup here, hence can't use Email: %s
+#: templates/myaccount/edit-subscription.php:115
+msgctxt "heading in customer details on subscription detail page"
+msgid "Email"
+msgstr ""
+
+#. translators: there is markup here, hence can't use Email: %s
+#: templates/myaccount/edit-subscription.php:115
+msgctxt "Used in data attribute for a td tag, escaped."
+msgid "Email"
+msgstr ""
+
+#. translators: there is markup here, hence can't use Email: %s
+#: templates/myaccount/edit-subscription.php:120
+msgctxt "heading in customer details on subscription detail page"
+msgid "Tel"
+msgstr ""
+
+#. translators: there is markup here, hence can't use Email: %s
+#: templates/myaccount/edit-subscription.php:120
+msgctxt "Used in data attribute for a td tag, escaped."
+msgid "Telephone"
+msgstr ""
+
+#: templates/myaccount/edit-subscription.php:183
+msgctxt "Button text on Edit Subscription page"
+msgid "Save Details"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:45
+msgid "Subscription"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:47
+#: templates/myaccount/my-subscriptions.php:79
+msgctxt "table heading"
+msgid "Next Payment"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:60
+msgid "ID"
+msgstr ""
+
+#. translators: placeholder is order number for subscription
+#: templates/myaccount/my-subscriptions.php:71
+msgctxt "hash before order number"
+msgid "#%s"
+msgstr ""
+
+#. translators: placeholder is the display name of a payment gateway a subscription was paid by
+#: templates/myaccount/my-subscriptions.php:84
+msgid "Via %s"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:90
+msgctxt "Used in data attribute. Escaped"
+msgid "Total"
+msgstr ""
+
+#. translators: placeholders are opening and closing link tags to take to the shop page. Don't change the order
+#: templates/myaccount/my-subscriptions.php:112
+msgid "You have no active subscriptions. Find your first subscription in the %1$sstore%2$s."
+msgstr ""
+
+#: templates/single-product/add-to-existing-subscription.php:19
+msgid "Add to your subscription"
+msgstr ""
+
+#: templates/single-product/add-to-existing-subscription.php:22
+msgctxt "default option in dropdown in add to existing subscription template"
+msgid "-- Select an existing subscription --"
+msgstr ""
+
+#: templates/single-product/add-to-existing-subscription.php:42
+msgctxt "Text on button for add to existing subscription functionality"
+msgid "Add to subscription"
+msgstr ""
+
+#. translators: placeholder is required WooCommerce version (eg 3.0.0)
+#: toolbox-for-woocommerce-subscriptions.php:166
+msgid "Toolbox for WooCommerce Subscriptions requires at least WooCommerce %s in order to function. Please activate or upgrade WooCommerce."
+msgstr ""
+
+#. translators: placeholder is required Subscriptions version (eg 3.0.0)
+#: toolbox-for-woocommerce-subscriptions.php:176
+msgid "Toolbox for WooCommerce Subscriptions requires WooCommerce Subscriptions version %s. Please activate or update Subscriptions."
+msgstr ""

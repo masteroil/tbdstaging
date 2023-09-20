@@ -1,0 +1,378 @@
+.bloge-post-banner{padding:80px 0 30px}
+p.blog-title-4-custom{font-size:12px;letter-spacing:.6px;line-height:28px;color:#9b9b9b;padding:0;text-align:right;position:absolute;top:21px;right:30px;font-weight:500}
+span.blog-title-1-custm{font-size:12px;letter-spacing:2px;line-height:12px;padding:30px;display:block;color:#ffffff;font-weight:600}
+h2.blog-title-2-custm{padding:0 30px 30px;line-height:40px;color:#a4866c;letter-spacing:-.4px;font-weight:500;font-size:32px;margin:0}
+.blog-title-custome-r a{text-decoration:none}
+.blog-title-3-custom p{font-size:20px;letter-spacing:-.2px;line-height:28px;color:#ffffff;font-weight:300;padding:0 30px 10px}
+.blog-title-custome-r{position:relative;background:#000}
+.nature-bottom-blog-custom{padding:0;position:absolute;left:0;right:0;bottom:0;border-top:1px solid #272727;justify-content:space-between;align-items:center;display:flex}
+a.left-hover-btn-cust{float:left;color:#fff;font-weight:600;line-height:28px;letter-spacing:-.2px;padding:25px 20px}
+a.rgt-hover-btn-cust{float:right;padding:25px 20px;line-height:28px}
+a.rgt-hover-btn-cust img{max-width:30px;position:relative;top:0}
+.col-lg-4.blogtopspace{margin-bottom:30px}
+.col-lg-4.blogtopspace:first-child {
+    display: none;
+}
+.common_blog-image-custom{height:100%;position:relative;padding-bottom:90px;background:#000}
+h2.bloag-card-link{padding:20px;line-height:40px;max-width:100%;color:#a4866c;letter-spacing:-.4px;font-weight:600;font-size:32px;padding-top:10px}
+.common_blog-image-custom a:hover{text-decoration:none}
+.name-blog-date{width:100%;display:flex;padding:20px 20px 0;justify-content:space-between}
+p.blog-card-name{font-size:12px;letter-spacing:2px;color:#ffffff}
+p.blog-card-date{font-size:12px;letter-spacing:.6px;color:#9b9b9b}
+.out-morebanner{background:#A4866C;width:100%;padding:80px 0}
+.finde-box-update{display:flex;justify-content:space-between;width:100%}
+.first-find-text h4{color:#fff;font-size:25px}
+.food-safe-during{max-width:500px}
+.food-safe-during p{font-size:20px;color:#fff}
+.frequnly-btn a{background:#000;color:#fff;padding:15px 20px;display:block}
+.frequnly-btn a:hover{text-decoration:none}
+.puppyschool-banner{width:100%;padding-bottom:60px}
+.alognside-text{width:100%;padding-bottom:80px}
+.alognside-text h4{color:#fff;font-size:28px;line-height:40px}
+.no-order-empety-design .under-order-empety-design img{max-width:80px!important;margin:auto}
+@media (min-width: 1200px) {
+.blog-title-custome-l img,.blog-title-custome-r{height:34rem}
+.pad-l{padding-left:0}
+.pad-r{padding-right:0}
+}
+@media (max-width: 1199px) {
+.blog-title-custome-r{padding-bottom:110px;margin-bottom:30px}
+.dashbord-page .left-side-dash {width: 100%;order: 2;}
+.dashbord-page .right-side-dash {width: 100%;margin: auto;margin-bottom: 40px;}
+
+
+}
+@media (max-width: 991px) {
+.finde-box-update{display:block}
+.food-safe-during{max-width:100%;margin-bottom:20px}
+.frequnly-btn a{display:inline-block}
+.first-find-text h4{padding-bottom:10px}
+}
+
+
+
+
+/*--------- Tejpreet -----------------*/
+
+.form-head h1{height:400px;background-image:url( https://thebutchersdog.com.au/wp-content/themes/Blutcher/assets/images/TBD_Refer-a-Friend.jpg );background-size:cover;background-repeat:no-repeat;background-position:center;display:flex;justify-content:flex-start;align-items:center;font-family:NorthwestTextured;font-size:80px;line-height:80px;color:#fff;padding:0 0 0 100px}
+.inner-form-box{text-align:center;padding:0 100px}
+.inner-form-box h3{font-size:16px;line-height:24px;color:#D8D8D8;width:100%;max-width:800px;margin:auto;padding:39px 0 20px}
+.inner-form-box h4{font-size:20px;font-weight:300;color:#D8D8D8;padding:0 0 40px}
+.inner-form-box input{width:100%;height:50px;margin-bottom:20px;padding:0 15px;border-radius:1px;color:#000}
+.inner-form-box form{background:#000;padding:50px 80px 0;width:100%;margin:auto}
+.inner-form-box input::placeholder{color:#b7b7b7;font-size:16px}
+.submit-btn input{width:100%;max-width:120px;height:45px;background:#a4866c;color:#000}
+.submit-btn input:hover{background:#826852}
+.cwrs_share_inner{background:#000;display:flex;padding:20px 80px 25px;align-items:center;flex-wrap:wrap;justify-content:center}
+.note-box{background:#000;display:flex;padding:0 80px 40px;justify-content:center;align-items:center}
+.note-box p{color:#fff}
+.terms-note{font-size:16px;line-height:24px;color:#D8D8D8;width:100%;max-width:800px;margin:auto;padding:25px 0 20px;text-align:center}
+.blog-title-custome-l img,.blog-title-custome-r{height:32rem;object-fit:cover}
+.onlyreferralcus span.textcurs{width:100%;padding:0 0 22px;text-align:center}
+.onlyreferralcus .cwrs_share_inner a img{padding:0 10px!important}
+.terms-note a{padding:10px 0 0;display:block;color:#FFF!important;text-decoration:underline}
+.under-order-empety-design p{font-weight:500}
+.side-space span.textcurs{width:100%;text-align:center;padding-bottom:20px}
+.under-order-empety-design a:hover{background:#826852!important;text-decoration:none}
+.under-order-empety-design a{color:#000!important}
+#all-page-header-space .woocommerce .woocommerce-MyAccount-content h2{margin-bottom:0!important}
+p.point_sumttl{padding:40px 0}
+
+/*---(4-13-2021) Blog-----*/
+.image-size{width:100%;}
+.news-test{display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}
+.news-latter,.testini{width:50%}
+.testini{display:flex;justify-content:space-between;padding:0 100px 0 0}
+.testini img{width:130px;height:130px;object-fit:cover;border-radius:150px;margin-right:30px;padding-bottom: 0 !important;}
+.main-test{background:#A4866C;padding:40px 0}
+.main-test h2,.single-post h2{font-size:20px;font-weight:500;letter-spacing:-.6px;color:#fff;padding:0 0 10px}
+.main-test p,.single-post p{font-size:16px;font-weight:400;line-height:1.5;color:#fff}
+.head-latter{font-style:italic; font-size:20px;font-weight:500;letter-spacing: 0.4px;color:#fff;padding:0 0 10px;display:block}
+.news-latter input{display:block;max-width:100%!important;width:100%!important;padding:8px 10px;border:none;font-size:14px;outline:none;height:50px;margin-bottom:10px}
+.news-latter a{background-color:#000;border:none!important;color:#fff;border-radius:0;width:160px;text-align:center;height:50px;display:flex;justify-content:center;align-items:center;text-decoration:none}
+.single-post{padding:135px 0 0;background:#F7F7F7}
+.catagory-post{color:#000;font-style:italic;font-size:12px;display:block;line-height:20px;letter-spacing:2px;text-align:left;font-weight:600;margin-bottom:0;text-transform:uppercase}
+.inner-post{padding:50px 0 0}
+.single-post h1{font-size:60px;font-family: Special Elite,-apple-system,BlinkMacSystemFont;color:#a4866c;line-height:55px;font-weight:500;padding:20px 0}
+.date-box{display:flex;justify-content:space-between;color:#969696;padding:0 0 15px;font-size: 20px;}
+.introduction-post{font-size:24px;font-weight:500;line-height:28px;display:block}
+.inner-post p{padding:60px 0;color:#000}
+.post-text-img h2{font-family:'Special Elite',cursive;text-align:center;color:#a4866c;padding:60px 0 0 0;font-size:40px}
+.single-post .container,.main-test .container{max-width: 1200px;}
+.button-sub input {color: #fff;width: 200px !important;}
+.second-boxx{padding-top: 0px;padding-bottom: 60px;}
+.text-second-box {padding: 30px 0 60px 0;}
+.text-second-box p {padding-bottom: 0;padding-top: 30px;}
+.post-text-img p,.post-text-img img,.style-post img {padding: 0px 160px 0 160px;}
+.post-text-img p {padding-top: 30px;text-align: left;}
+.post-text-img img , .style-post img{width: 100%;padding-top: 60px;}
+.post-text-img {padding-bottom: 60px;}
+.post-text-img h3{padding: 60px 160px 0 160px;color: #a4866c;font-size: 25px;font-family: Special Elite,-apple-system,BlinkMacSystemFont;}
+.cover-sec {padding: 15px 0 0 0;}
+
+/*---Dashboard Page-----*/
+.name-kbs {font-size: 22px;}
+.up-date {font-size: 18px;}
+.dashbord-page {display: flex;justify-content: space-between;flex-wrap: wrap;}
+.left-side-dash {width: 65%;padding: 0 10px 0 0;}
+.right-side-dash {width: 33%;padding: 15px;max-width: 320px;}
+.desktop-remove{display:none}
+.inner-right-side img{width:100%;max-width:180px!important;margin:auto}
+.right-side-dash{position:relative;background-image:url(https://thebutchersdog.com.au/wp-content/themes/Blutcher/assets/images/desktop-dog.jpeg);background-size:cover;background-position:center;padding:70px 15px 0;display:flex;top:-27px;height:420px}
+.inner-right-side h1{font-family:NorthwestTextured;font-size:38px;line-height:40px;color:#b9976e;padding:0 25px;text-align:center;font-weight:700}
+.inner-right-side{text-align:center}
+.inner-right-side p{font-size:14px;font-weight:600;padding:10px 25px 15px}
+.inner-right-side a{background:#a4866c;padding:10px 15px;color:#fff;align-content:center;display:block;font-size:14px;font-weight:400;text-decoration:none;max-width:180px;width:100%;margin:auto}
+.inner-right-side a:hover{background:#846c57}
+.img-set{position:absolute;top:-100px;width:100%;margin:auto;text-align:center;left:0}
+.right-signout{background:#000;padding:30px 20px 30px 0;position:fixed;bottom:0;left:0;width:250px}
+
+.accout-of-new nav.woocommerce-MyAccount-navigation.sliddeing, .margin .accout-of-new nav.woocommerce-MyAccount-navigation {padding-bottom: 80px;}
+.accout-of-new nav.woocommerce-MyAccount-navigation {padding-bottom: 110px;}
+/*---(4-13-2021)-----*/
+
+@media (max-width: 1400px) and (min-width: 1240px) {.inner-right-side p {padding: 10px 8px 15px 8px;}}
+@media (max-width: 1023px){.right-signout {display: none;}}
+
+@media (max-width: 767px) {
+.bloge-post-banner{padding:0;margin-top:125px!important}
+.alognside-text{padding-bottom:40px;padding-top:40px}
+section.out-morebanner{padding:80px 15px}
+section.puppyschool-banner{padding-bottom:10px}
+.inner-form-box h3{padding-top:0}
+.side-space .cwrs_share{padding:0 20px}
+.side-space .cwrs_share_inner{padding:20px}
+.side-space .note-box{padding:0 20px 20px;text-align:center}
+.side-space .social_image{padding:0 7px!important;height:35px!important}
+.blog-title-custome-l img,.blog-title-custome-r{height:auto;object-fit:cover}
+
+/*---(4-13-2021)-----*/
+.single-post h1 {font-size: 40px;line-height: 48px;}
+.post-text-img p, .post-text-img img, .style-post img {padding: 60px 0 0 0;}
+.single-post h2 {font-size: 24px;}
+.news-latter, .testini {width: 1000%;}
+.testini {padding: 0 0 40px 0;}
+.testini img {width: 80px;height: 80px;margin-right: 15px;}
+.button-sub input {width: 100% !important;max-width: 100% !important;}
+.introduction-post {font-size: 22px;}
+.single-post .container,.main-test .container {padding: 0 30px;}
+.second-boxx {padding-bottom: 60px !important;}
+
+
+.left-side-dash,.right-side-dash {width: 100%;margin: auto;}
+.right-side-dash {margin-bottom: 40px;}
+.left-side-dash {order: 2;} 
+.inner-right-side img {top: -110px;}
+.inner-right-side h1 {font-size: 30px;padding: 0 0px;}
+.inner-right-side p {padding: 10px 0px 20px 0px;}
+.agin-login-box, .aing-box-order {width: 33% !important;padding: 0 3px !important;}
+.dashbord-page {padding: 50px 0 0 0;}
+.right-side-dash {background-image: url(https://thebutchersdog.com.au/wp-content/themes/Blutcher/assets/images/mobile-dog.jpeg)!important;height: 370px;background-position: bottom;}
+.agin-login-box span,.aing-box-order span {font-size: 14px!important;}
+.navbar-brand img {max-width: 200px !important;}
+.left-side-dash .agin-login-row {padding: 40px 0px 0 0;}
+.dashbord-page .right-side-dash {top: 40px;}
+}
+/*---(4-13-2021)-----*/
+
+
+/* Sahil Code Starts */
+
+.checkreferralcus h1{color:#000;margin:0 0 12px}
+.checkreferralcus{margin:26px 0 0;display:inline-block}
+.checkreferralcus .col-md-12 input{width:100%;max-width:320px;padding:8px 10px;border:1px solid #909090;font-size:14px;outline:none;min-height:45px}
+.checkreferralcus .col-md-12{padding-top:15px}
+.checkreferralcus .col-md-12 input[type="submit"]{width:100%;max-width:130px;min-height:50px;background-color:#A4866C;border:none;color:#fff;border-radius:0;margin:8px 0 0;outline:none;text-transform:uppercase;font-weight:500;letter-spacing:.5px}
+.checkreferralcus h3{font-weight:400!important}
+.checkreferralcus .cwrs_share{padding:0;display:flex;flex-direction:column}
+.checkreferralcus .cwrs_share *{color:#000;line-height:23px}
+.checkreferralcus .side-space{padding:40px 0 0}
+.checkreferralcus .cwrs_share span.textcurs{width:100%;padding:0 0 10px;text-align:center}
+.checkreferralcus .cwrs_share_inner{max-width:224px;margin:0 auto}
+.checkreferralcus .cwrs_share .social_image{padding:0 8px!important;margin:0 0 5px}
+.checkreferralcus .cfw-module *{color:#000}
+#cfw-cart-summary{max-width:100%;padding:40px 0 0}
+#cfw-cart-summary #cfw-cart-summary-content{padding:0}
+#cfw-cart-summary * {    color: #000;}
+
+/* Sahil Code Ends */
+
+/* 16-4-2021 Start */
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.navbar-light .navbar-brand { max-width: 180px;}
+.navbar-light .navbar-nav .nav-link {font-size: 14px;padding: 0 0 0 10px;}
+.mstartnw span, .startnw span {padding: 10px 10px;}
+#myHeader .abs-right.dext a {font-size: 12px;}
+
+.cover-sec .left-side-dash {width: 65% !important;padding: 0 10px 0 0;}
+.cover-sec .right-side-dash {width: 33% !important;max-width: 320px;order: 2;padding: 70px 15px 0;margin: 0 !important;}
+.cover-sec .right-side-dash {height: 390px!important;}
+.cover-sec .inner-right-side h1 {font-size: 34px;padding: 0;line-height: 34px;}
+.cover-sec .text-frnd p {padding: 10px 0px 15px;}
+.right-side-dash {height: 390px!important;}
+.cover-sec {padding: 35px 0 0 0!important;}
+.wc-delivery-time-response:after {top: 0!important;}
+.wc-delivery-time-response .pin_div {padding: 45px 0 0 0 !important;}
+
+}
+
+
+@media (max-width: 1365px) and (min-width: 1024px) {
+.dashbord-page .left-side-dash {width: 64%;}
+.dashbord-page .right-side-dash {margin: 0 0 0 auto;order: 2;}
+.dashbord-page .right-side-dash {width: 34%;padding: 70px 10px 0 10px;}
+.dashbord-page .inner-right-side h1 {font-size: 28px;line-height: 35px;padding: 0 10px;}
+.inner-right-side p {padding: 10px 0 15px 0;}
+.dashbord-page .agin-login-box span,.dashbord-page .aing-box-order span {font-size: 14px;}
+.dashbord-page .aing-box-order img,.dashbord-page .agin-login-box img {max-width: 25px;}
+.up-date {font-size: 16px;}
+.accout-of-new .woocommerce-MyAccount-content {padding: 40px;}
+
+}
+
+
+body .disc-calculator {width: 90%;max-width: 720px;}
+.disc-calculator .myy-pupy-calculetor select.calculetor-input {min-width: inherit;width: 100%;}
+.disc-calculator .main-content-calculetor {padding: 30px;}
+
+
+/* 16-4-2021 Ends */
+
+/* 20-4-2021 starts*/
+
+.woo_amc_open_image:hover .fullnormal{opacity:0;visibility:hidden;display:none}
+.woo_amc_open_image:hover .fullnormalhover{opacity:1;visibility:visible;display:block!important}
+.woo_amc_open_image .fullnormalhover{opacity:0;visibility:hidden;display:none;}
+
+
+.woo_amc_open_image img.normalhover, .woo_amc_open_image:hover img.normal  {display: none;}
+.woo_amc_open_image:hover img.normalhover {display: block;}
+
+/*20-4-2021 Ends*/ 
+
+@media (max-width: 767px){
+.post-text-img ol {padding: 30px 0px 0 0Px!important;}
+.post-text-img h3 {padding: 60px 0px 0 0px;}
+.post-text-img p, .post-text-img img, .style-post img {padding: 30px 0 0 0!important;}
+}
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.hero-banner-inner,.hero-banner {height: 50vh;margin-left: 0;}
+.top-buthler-home-d {padding-bottom: 0px;}
+.hero-heading {font-size: 62px;line-height: 62px;}
+.puchline {font-size: 22px;}
+}
+
+
+/*---Tablet css 31-05-2021-----*/
+@media (max-width: 1023px) and (min-width: 768px) {
+
+body footer .foot-logo img {padding: 0 10px;max-width: 150px;}
+body footer .dual-sec { top: -30px;}
+body footer .foot-logo,.logo-title {top: 0;position: relative;}
+body footer .dual-sec .logo-title {font-size: 31px;width: 100px;top: 0;}
+body footer .dual-sec.foot-links ul {width: 25%;padding-left: 0;}
+body footer .foot-social-inner {display: flex;flex-wrap: wrap;justify-content: end;}
+body footer .foot-social-inner a {width: 25%;padding: 0px;}
+body footer .dual-sec.foot-links {width: 65%;padding-right: 30px;}
+body .customer-story {padding: 70px 15px 30px 15px!important;}
+body .featured-meals {padding: 80px 15px;}
+.featured-meals .sap-big-heading br {display: none;}
+.map-sec #wpsl-search-wrap .wpsl-input {margin-bottom: 0px!important;}
+.map-sec .wpsl-search-btn-wrap {   right: 0;}
+.blogtopspace {width: 50%;}
+.fitbutcherdog-inner div#last-tri-butchl .fitbutcherdog-tri-sec-inner div#my_custom_checkout_field2 p#pincode_field_idp a#checkpin {padding: 10px 10px 10px 10px !important;}
+.dual-sec.onlu-right-side-dogvideo img {object-fit: cover;}
+.three-bae-rr .input#wpsl-search-input {max-width: 100%;}
+.working-dog-butler ul.purchase-options {padding-left: 35px!important;}
+div#my_custom_checkout_field p#pincode_field_idp a#checkpin, div#my_custom_checkout_field2 p#pincode_field_idp a#checkpin {
+    line-height: 18px;padding: 10px 14px;}
+.phonex-home-page {padding-top: 40px;}
+
+/*-----2-june-2021----*/
+.foot-social .foot-social-inner strong {
+    width: 100%;
+    font-weight: 400;
+    color: #a4866c;
+    padding: 0 0 5px 0;
+}
+
+}
+
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+body footer .foot-logo img {padding: 0 10px;max-width: 150px;}
+body footer .dual-sec { top: -30px;}
+body footer .foot-logo,.logo-title {top: 0;position: relative;}
+body footer .dual-sec .logo-title {font-size: 31px;width: 100px;top: 0;}
+body footer .dual-sec.foot-links ul {width: 25%;padding-left: 0;}
+body footer .dual-sec.foot-links {width: 65%;padding-right: 30px;}
+.dual-sec.foot-links ul li a {padding-right: 10px;}
+.dual-sec.onlu-right-side-dogvideo img {object-fit: cover;}
+.featured-meals .sap-big-heading br {display: none;}
+.map-sec #wpsl-search-wrap .wpsl-input {margin-bottom: 0px!important;}
+.map-sec .wpsl-search-btn-wrap {right: 0;}
+.dual-sec.onlu-right-side-dogvideo img {object-fit: cover;}
+}
+
+
+/*-------End---------*/
+
+.out_stock_box {position: absolute;right: 0;background: #af1600;padding: 8px 10px;color: #fff;font-size: 14px;
+cursor: pointer;}
+
+@media (max-width: 767px) {
+.owl-head-sec .out_stock_box {padding: 5px 6px;font-size: 10px;}
+}
+@media (max-width: 1023px) and (min-width: 768px){
+.owl-head-sec .out_stock_box {padding: 6px 10px;font-size: 12px;}
+}
+
+/* order panel 07-07-2021 starts */
+p.stock.out-of-stock {
+    display: none;
+}
+.btn-ofs{
+    border: 2px solid #cc0000;
+    background: #cc0000;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+}
+.ingredient-human-grad:before{
+    background: none!important;
+}
+h1.ofs-note {
+    color: #FFFFFF;
+    padding-left: 13%;
+    padding-top: 10px;
+}
+
+.outofstock.shipping-taxable .summary.entry-summary h1.ofs-note {padding: 20px 0 0;}
+.outofstock.shipping-taxable .summary.entry-summary .btn-ofs {position: relative;right: 0;}
+.outofstock.shipping-taxable .summary.entry-summary {display: flex;flex-direction: column;align-items: center;}
+
+
+
+@media (max-width: 767px) {
+    h1.ofs-note {
+        padding-top: 15%;
+        text-align: center;
+        padding-right: 46px;
+        font-size: 14px;
+    }
+    button.btn-ofs {
+    right: 34%;
+    }
+    .outofstock.shipping-taxable{ padding: 0 0 50px;}
+}
+@media(min-width:768px)
+{
+.outofstock.shipping-taxable .summary.entry-summary {display: flex;flex-direction: row;align-items: center;}
+.outofstock.shipping-taxable .summary.entry-summary h1.ofs-note{ padding: 0 0px 0 20px;}
+
+}
+
+/* order panel 07-07-2021 ends */

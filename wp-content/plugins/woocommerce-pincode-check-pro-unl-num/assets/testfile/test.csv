@@ -1,0 +1,6 @@
+Pincode,Area,City,State,Delivery within days,cash on delivery,COD Charges,COD Charges * Quentity,Delivery within day name,Delivery within Hours  ,Delivery within Minutes,Deliver By,Excluded Products ids,Quantity,Day
+100001,Area1,City1,State1,0,n,0,n,,2,10,time_picker,"25, 29 ",,
+100002,Area2,City2,State2,0,y,20,y,,1,5,time_picker,"27 , 57",,
+100003,Area3,City3,State3,0,n,0,n,Wednesday,,,day_name,,,
+100004,Area4,City4,State4,2,y,0,n,,,,day,,,
+100005,Area5,City5,State4,0,y,30,n,Saturday,,,quantity,,"2,3,4","3,5,7"

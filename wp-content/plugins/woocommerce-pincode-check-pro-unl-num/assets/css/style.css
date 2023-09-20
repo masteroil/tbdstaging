@@ -1,0 +1,724 @@
+.delivery_help_text_main{ position: relative;width:100%; }
+
+.cash_on_delivery_help_text_main{ position: relative;width:100%; }
+
+#my_custom_checkout_field2 .error_pin{ font-size: 12px; font-weight:500; width:100%; box-sizing:border-box; float: right; margin-top: 12px;}
+
+#err_pin{ font-size: 12px;}
+
+.error_pin{ font-size: 12px;}
+
+.err_pin{ font-size: 12px;}
+
+.div_pin2{ font-size:11px;}
+	
+.mCSB_scrollTools{width: 4px !important;}
+
+
+
+.cash-on-delivery-info .cash-on-delivery { font-size:14px; color:#949494;}
+
+.delivery .ul-disc li{ font-size:14px; margin:0; padding:0;}
+
+.cash-on-delivery-info h6{ margin:0; display:inline-block; font-size: 16px;}
+
+.wc-delivery-time-response .delivery-info h6{ margin:0; padding:0; display:inline-block; font-size: 16px; text-transform:capitalize;letter-spacing:0;line-height:1; color:#666666; font-weight:700; font-style:normal;}
+
+.header .cash_on_delivery_help_text{width:100%;box-sizing: border-box; position: absolute; z-index: 9999; top:-5px; left: 0; height:auto; padding:3px 0 3px 6px; font-size:14px;border-radius:6px;}
+
+.header .cash_on_delivery_help_text::after{ position:absolute; right:11px; top:-17px; content:''; border-color:transparent transparent #444446 transparent; border-width:8px; border-style:solid;}
+
+#change_pin.button{ float:none !important; font-size: 14px; padding:0; text-transform: uppercase; font-weight:normal;border: medium none;border-radius:0; vertical-align:top; display:inline-block; text-decoration:none; text-shadow:none; margin:4px 0 0 0; background-color:transparent;}
+
+#change_pin.button img{margin:0;max-width:100%;height:auto;border:none;vertical-align:middle; width:auto;}
+
+.header .delivery_help_text{width:100%;box-sizing: border-box; height:auto; position: absolute; z-index:9999; top:-5px; left:0; padding:3px 0 3px 6px; font-size:14px;border-radius:6px;}	
+
+.header .delivery_help_text::after{ position:absolute; right:11px; top:-17px; content:''; border-color:transparent transparent #444446 transparent; border-width:8px; border-style:solid;}	
+
+.woocommerce-cart .header .delivery_help_text{width:100%;box-sizing: border-box; height:200px; position: absolute; z-index:9999; top:-5px; left:0; padding:3px 0 3px 6px; font-size:14px; border-radius:6px;}	
+
+.woocommerce-cart .delivery-help-cross {color: #000 !important;cursor: pointer;font-size: 17px;font-weight: bold;position: absolute;right: 0;top: -22px; display:none;}
+
+.woocommerce-cart .delivery-help-icon{ cursor:pointer;}
+
+.avlpin{ margin:24px 0 0; padding:20px; text-align:left; width:100%; display:table; text-align:center;box-sizing: border-box;}
+
+form .wc-delivery-time-response .avlpin p{ display:inline-block; margin-right: 5px; margin-top:0; margin-left:0; font-size: 14px; margin-bottom:0; font-weight:700; line-height:19px;}
+
+form .wc-delivery-time-response .avlpin p span.pincode_custom_text{ margin-top:5px; display:block; padding:0;}
+
+.woocommerce-cart .delivery .ul-disc{list-style:none;margin: 0;padding: 0;}
+
+.woocommerce-cart .cart-collaterals .cart_totals table { border-collapse: separate;border-left: 0 none;margin: 0 0 6px;padding: 0;position: relative;}
+
+.wc-delivery-time-response .delivery-info-wrap {margin:0 0 15px 0;}
+/*.wc-delivery-time-response .delivery-info-wrap:hover .delivery-info{ animation:bounce 0.4s 1;opacity:1;transform:translateY(0);}*/
+.wc-delivery-time-response .delivery-info-wrap .delivery-info {display:table;width: 100%; position: relative; border:#cacaca dashed 1px} 
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .header { box-sizing:border-box;float: none;width: 100%; padding:10px 10px 10px 20px; display:block;vertical-align:top; text-align:left;margin-bottom:1px!important;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .cash-on-delivery-info-wrap {width: 100%;position:relative;display:block; vertical-align:top;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .delivery-help-icon{margin-left:5px;cursor:pointer;display:inline-block; vertical-align:middle; padding:0; border-bottom:none; box-shadow:none;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info:hover .header{}
+/*@keyframes bounce {
+0% {
+	transform:translateY(-100%);
+
+}
+5% {
+  	transform:translateY(-100%);
+ 
+}
+15% {
+    transform:translateY(0);
+   
+}
+30% {
+    transform:translateY(-50%);
+}
+40% {
+  	transform:translateY(0%);
+ 
+}
+50% {
+    transform:translateY(-30%);
+}
+70% {
+    transform:translateY(0%);
+    
+}
+80% {
+    transform:translateY(-15%);
+}
+90% {
+    transform:translateY(0%);
+    
+}
+95% {
+    transform:translateY(-7%);
+}
+97% {
+    transform:translateY(0%);
+   
+}
+99% {
+    transform:translateY(-3%);
+}
+100% {
+    transform:translateY(0);
+
+}
+}*/
+
+.delivery-info-wrap .header .phoe-pincode-pro-tick-img span h6{ margin-bottom:0;}
+.delivery-info span h6{ margin-bottom:0;}
+.cash-on-delivery-info .header .phoe-pincode-pro-tick-img > h6{ margin-bottom:0;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .header .delivery .ul-disc{margin:0;padding:0;list-style:none; color:#949494;}
+
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .cash-on-delivery-info-wrap .cash-on-delivery-info .header{float:none; width:100%;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .cash-on-delivery-info-wrap .cash-on-delivery-info .header .cash-on-delivery-help-icon{margin-left: 5px;
+	cursor:pointer; display:inline-block; vertical-align:middle; border-bottom:none; text-decoration:none; box-shadow:none;}
+
+.wc-delivery-time-response .delivery-info-wrap .delivery-info.full{text-align:center;}
+.wc-delivery-time-response .delivery-info-wrap .delivery-info.full .header,
+.wc-delivery-time-response .delivery-info-wrap .delivery-info.full .cash-on-delivery-info-wrap{width:100%;display:block;}
+/*-------------------product1-----------------*/
+
+#my_custom_checkout_field2 #pincode_field_idp #pincode_field_id.input-text {
+	background-color: #fff;
+	border-radius: 0;
+    background-image: url(phoeniixx_pin_location_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    width: 100% !important;
+    margin-right: 0;
+    font-size: 13px;
+    color: #999;
+    height: 46px;
+    padding: 6px 10px 6px 30px;
+    vertical-align: top;
+}
+#my_custom_checkout_field2 #pincode_field_idp #pincode_field_id.input-text:focus{ background-color:#fff; box-shadow:none;}
+
+
+#my_custom_checkout_field2 #pincode_field_idp .button{float: none;font-size: 14px;text-transform: uppercase;  font-weight: normal; width:auto;}
+
+
+.header .cash_on_delivery_help_text h3{font-size: 16px;color:#7d7b6d;}
+.delivery-help-cross {color: #000 !important;font-size: 17px;font-weight: bold;position: absolute;right: 0px;top: -12px;cursor: pointer; z-index: 99999;}
+
+.wc-delivery-time-response .form-row label{vertical-align:middle;}
+
+.wc-delivery-time-response .input-block{
+	display: flex;
+    position: relative;
+    padding-right: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.wc-delivery-time-response .input-block .loader_div,
+.wc-delivery-time-response .input-block .loader_div .phoen_pincode_span_min{display: block; width: 100%;}
+.input-block .button{position:absolute;top:0; right:0; border-radius:0;}
+
+/*-------------------product1-----------------*/
+
+/*-------------------cart-----------------*/
+
+.wc-delivery-time-response .delivery-info-wrap .delivery-info .delivery .ul-disc{margin:0;padding:0;list-style:none;}
+
+.delivery_help_text h3{font-size: 16px;color:#7d7b6d;}
+
+form.cart #my_custom_checkout_field #pincode_field_idp #checkpin.button {float: none;font-size: 14px;}
+
+form.cart #my_custom_checkout_field #pincode_field_id{width:180px !important;border: 1px solid #d3d3d3;margin-right: 5px;font-size: 13px;}
+
+form.cart #my_custom_checkout_field #pincode_field_idp label{display: inline-block;margin-right: 5px;font-size: 14px;}
+
+#shade {
+background: none repeat scroll 0 0 #000000;
+opacity: 0.5;
+}
+
+#shade {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.wc-delivery-time-response .delivery-info-wrap .header:last-child {border-top:#cacaca dashed 1px!important;}
+
+.wc-delivery-time-response .pin_div .form-row { padding:0;}
+
+.wc-delivery-time-response #chkpin_loader img{max-width:20px;border:0 none;padding:0; height:auto; width:auto;}
+
+.pin_div{ position:relative;}
+
+.pin_div#my_custom_checkout_field2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pin_div#my_custom_checkout_field2 p#pincode_field_idp {
+	flex: 1 1 100%;
+}
+
+.pin_div #chkpin_loader{display: block;position: absolute;right: 2px; bottom: 27px;}
+
+.delivery-info a.delivery-help-icon {
+	border-bottom:none;
+}
+
+.delivery-info a.cash-on-delivery-help-icon {
+	border-bottom:none;
+}
+
+.wc-delivery-time-response .phoe-green-location-icon {
+    margin-right: 5px;
+    vertical-align: top;
+	text-align:center;
+	display:inline-block;
+}
+
+#pincode_field_idp .loader_div span#chkpin_loader {
+    right: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+#my_custom_checkout_field2 p#pincode_field_idp{ margin-bottom:0px!important;}
+
+.wc-delivery-time-response a.button{ cursor:pointer;}
+
+.wc-delivery-time-response .phoe-green-location-icon img {
+	margin:0;
+	max-width:100%;
+	height:auto;
+	border:none;
+	vertical-align:middle;
+	width:auto;
+}
+
+.phoen_delivery ul {
+    color: #949494;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+	line-height: 1;
+}
+
+/*============ Area according delivery section css ============*/
+
+.phoen_city {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+.phoen_new_area_min .phoen_city {
+	width: 38%;
+	margin-right: 2%;
+}
+
+.phoen_new_area_min .error_pinn {
+    float: left;
+    width: 100%;
+}
+
+
+.phoen_state_upper_min_xox span.select2-container--default .select2-selection--single,
+.phoen_state_upper span.select2-container--default .select2-selection--single,
+.pho-option-form span.select2-container--default .select2-selection--single,
+.phoen_area span.select2-container--default .select2-selection--single,
+.phoen_city span.select2-container--default .select2-selection--single,
+.phoen_maie_kked span.select2-container--default .select2-selection--single {
+	 border: 1px solid #dbd9da;
+    border-radius: 0;
+	padding: 12px;
+    width: 100%;
+	box-shadow: none;
+	 min-height: 46px;	
+}
+
+.phoen_state_upper_min_xox span.select2-container--default .select2-selection--single {
+	min-height: 46px;
+}
+
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__rendered,
+.phoen_state_upper .select2-container--default .select2-selection--single .select2-selection__rendered,
+.pho-option-form .select2-container--default .select2-selection--single .select2-selection__rendered,
+.phoen_area .select2-container--default .select2-selection--single .select2-selection__rendered,
+.phoen_city .select2-container--default .select2-selection--single .select2-selection__rendered,
+.phoen_maie_kked .select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #363636;
+	font-size: 14px;
+	padding-left: 3px;
+	line-height: 22px;
+}
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 32px;
+}
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__arrow,
+.phoen_state_upper .select2-container--default .select2-selection--single .select2-selection__arrow,
+.pho-option-form .select2-container--default .select2-selection--single .select2-selection__arrow,
+.phoen_maie_kked .select2-container--default .select2-selection--single .select2-selection__arrow,
+.phoen_area .select2-container--default .select2-selection--single .select2-selection__arrow,
+.phoen_city .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 46px;
+	width: 25px;
+}
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 45px;
+}
+
+.phoen_state_upper_min_xox .select2-container,
+.phoen_state_upper .select2-container,
+.pho-option-form .select2-container,
+.phoen_city .select2-container,
+.phoen_area .select2-container,
+.phoen_maie_kked .select2-container {
+	width: 100% !important;
+	text-align: left;
+}
+
+.phoen_state_upper .select2-container:focus,
+.phoen_state_upper .select2-container .selection:focus,
+.phoen_state_upper span.select2-container--default .select2-selection--single:focus {
+	outline: none;
+}
+
+.wc-delivery-time-response .pin_div .phoen_state_upper_min_xox .loader_div {
+	display: flex;
+}
+
+.phoen_state_upper_min_xox .select2-container {
+	float: left;
+}
+
+#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox .phoen_pincode_span_min {
+    float: right;
+}
+
+form.phoen_new_area_min .phoen_area {
+    float: left;
+    width: 40%;
+}
+
+.pincode-pho-popup .pho-pincode {
+	width: 100%;
+    float: none;
+    display: flex;
+	justify-content: center;
+}
+
+.select2-container--default .select2-selection--single:focus {
+	outline: none;
+}
+
+.pincode-pho-popup .phoen_maie_kked {
+	margin-right: 2%;
+}
+
+.pincode-pho-popup .phoen_min_lower {
+    display: flex;
+	position: relative;
+}
+
+.pincode-pho-popup .pho-option-form.phoen_new_area_min {
+	width: 380px;
+} 
+
+#pho_home_pck.pho-option-form.phoen_new_area_min .phoen_city {
+    margin-right: 2%;
+    width: 38%;
+}
+
+#pho_home_pck_shop .error_pin_shop {
+    float: left;
+    width: 100%;
+}
+
+.pin_div .phoen_state_upper {
+	display: flex;
+}
+
+.pho-option-form .phoen_min_lower  {
+		position:relative;
+}
+/* form.phoen_no_mmies .pho-pincode .phoen_min_lower::before{
+    position: absolute;
+    content:  url("phoeniixx_pin_location_icon.png");
+    left: 18px;
+	line-height: 1;
+    font-family: fontawesome;
+    font-size: 28px;
+    color: #d1d1d1;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+} */
+.pho-pincode input#enter_pincode {
+	background-image: url(phoeniixx_pin_location_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+form.phoen_no_mmies .phoen_min_lower::after{
+	display:none;
+}
+
+#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox .phoen_pincode_span_min {
+	position: relative;
+}
+
+
+/* .pin_div .my-field-class .input-block::before,
+#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox .phoen_pincode_span_min:before {
+	position: absolute;
+	content: url("phoeniixx_pin_location_icon.png");
+	left: 8px;
+	color: red;
+	font-size: 28px;
+	top: 50%;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+span.input-block input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    box-shadow: 0 0 0 30px white inset !important;
+    -moz-box-shadow: 0 0 0 30px white inset;
+}
+ */
+
+#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox:before {
+	display: none;
+}
+.pin_div .phoen_state_upper .phoen_city_1 {
+    margin-right: 1%;
+}
+
+.pincode-pho-popup  .phoen_state_upper {
+	    display: flex;
+		width: auto;
+		justify-content: flex-end;
+}
+
+#pho_home_pck_shop.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_city,
+#pho_home_pck.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_city {
+	width: auto;
+}
+
+#pho_home_pck_shop.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_area,
+#pho_home_pck.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_area {
+	width: auto;
+}
+
+.pho-pincode-popup-body .phoen_no_mmies .error_pinn,
+.pho-pincode-popup-body .phoen_no_mmies .error_pin {
+    margin: 12px 17% 0;
+    width: 65%;
+}
+
+.pho-pincode-popup-body .phoen_no_mmies .error_pinn {
+	float: left;
+}
+
+#pho_home_pck_shop.phoen_no_mmies .error_pin_shop {
+    margin: 0 17%;
+    width: 64%;
+}
+
+.pho-para a {
+    padding: 7px 16px;
+    display: inline-block;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    color: #111;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    border: #ccc solid 1px;
+}
+
+
+/*custome css*/
+
+
+
+
+/*============ Area according delivery section css ============*/
+
+@media only screen and (max-width: 1280px) {
+	.wc-delivery-time-response .delivery-info-wrap .header{ padding:10px 10px 10px 10px!important;}
+}
+
+@media only screen and (max-width: 980px) {
+	.avlpin{ padding:20px 15px;}
+	.wc-delivery-time-response .delivery-info h6{ font-size:15px;}
+}
+
+@media only screen and (max-width: 800px) {
+	.wc-delivery-time-response .delivery-info h6{ font-size:12px;}
+	.avlpin{ padding:20px;}
+}
+
+@media only screen and (max-width: 780px) {
+	/*.delivery-info-wrap .header{ width:50%!important; float:left!important; display:inline-block;}
+	.cash-on-delivery-info-wrap .cash-on-delivery-info .header{ width:100%!important;}
+	.wc-delivery-time-response .cash-on-delivery-info-wrap { width:50%!important; display:inline-block!important;}
+	.wc-delivery-time-response .delivery-info-wrap .header:last-child {border-left:none!important;border-right:#cacaca dashed 1px!important;border-bottom:#cacaca dashed 1px!important;border-top:#cacaca dashed 1px!important;}
+	.wc-delivery-time-response .delivery-info-wrap .header{ padding:10px 7px 10px 7px!important;}*/
+	.wc-delivery-time-response .delivery-info-wrap .header{ padding:10px 10px 10px 20px!important;}
+	.wc-delivery-time-response .delivery-info h6 h6{ font-size:16px;}
+} 
+
+@media only screen and (max-width: 767px){
+	.wc-delivery-time-response .delivery-info h6 h6{font-size:14px;}
+	.wc-delivery-time-response .delivery-info-wrap .header{ padding:10px 10px 10px 20px!important;}
+
+}
+
+@media only screen and (max-width: 640px){
+	.wc-delivery-time-response .delivery-info-wrap .header{ padding:10px 7px 10px 7px!important;}
+	
+	.pincode-pho-popup .phoen_min_lower {width: 100%;}
+	
+	
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower {width: 70%;}
+	
+	.pincode-pho-popup input {max-width: calc(100% - 85px);}
+
+}
+
+@media only screen and (max-width: 540px) {
+	.wc-delivery-time-response .delivery-info-wrap .header:last-child {border:none!important; border-top:#cacaca dashed 1px!important;}
+	.wc-delivery-time-response .cash-on-delivery-info-wrap{ display:block; width:100%!important;}
+	.wc-delivery-time-response .delivery-info-wrap .delivery-info.full { display:block; width:100%!important;}
+	.wc-delivery-time-response .delivery-info-wrap .header{ width:100%!important;}
+	} 
+	
+@media only screen and (max-width: 480px) {
+	.phoen_state_upper_min_xox .select2-container {width: 100%!important; margin-bottom: 8px;}
+	#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox .phoen_pincode_span_min {width: 100%!important; margin-bottom: 15px;}
+	
+	#my_custom_checkout_field2 #pincode_field_idp #pincode_field_id.input-text {border-right: 1px solid #dadada;}
+	
+	#my_custom_checkout_field2 #pincode_field_idp .input-block.phoen_state_upper_min_xox #checkpin.button {bottom: 0; top: auto;}
+	
+	#my_custom_checkout_field2 .input-block.phoen_state_upper_min_xox {float: left;}
+	
+	.pincode-pho-popup .pho-option-form.phoen_new_area_min {width: 100%;}
+	
+	.pincode-pho-popup .phoen_new_area_min .phoen_state_upper {width: 100% !important;}
+		
+	.pincode-pho-popup #pho_home_pck.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_city,
+	.pincode-pho-popup #pho_home_pck.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_area,
+	.pincode-pho-popup #pho_home_pck_shop.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_city,
+	.pincode-pho-popup #pho_home_pck_shop.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_area	{ float: none; width: 80%; margin: 0;}
+	
+	.pincode-pho-popup #pho_home_pck.pho-option-form.phoen_new_area_min .phoen_state_upper .phoen_area {margin: 10px auto 10px;}
+	
+	.pincode-pho-popup .phoen_new_area_min .pho-pincode input.pho-submit_btn {line-height: 1; width: 80%; max-width: 80%;}
+	
+	.pincode-pho-popup .phoen_only_state .phoen_maie_kked,
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower  {float: none; margin: 0 auto; width: 90%;}
+	
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower {margin-top: 10px;}
+	
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower input#enter_pincode,
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower input#enter_pincode_shop,
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower input.pho-submit_btn {margin: 0; max-width: 100%; width: 100%;}
+	
+	.pincode-pho-popup .phoen_only_state .phoen_min_lower input#enter_pincode,
+		.pincode-pho-popup .phoen_only_state .phoen_min_lower input#enter_pincode_shop{margin-bottom: 10px;}
+	
+	form.pho-option-form .pho-pincode.phoen_only_state .phoen_min_lower::after {left: 15px; top: 25%; }
+	
+	.pincode-pho-popup  .pho-pincode input#enter_pincode,
+	.pincode-pho-popup  .pho-pincode input.pho-submit_btn {margin: 0; max-width: 100%; width: 100%;}
+	
+	.pincode-pho-popup  .pho-pincode input#enter_pincode {margin-bottom: 10px;}
+	
+	.pincode-pho-popup form.phoen_no_mmies .pho-pincode .phoen_min_lower::before {top: 25%; left: 15px;}
+	
+	.pin_div .phoen_state_upper,
+	.wc-delivery-time-response .pin_div .phoen_state_upper_min_xox .loader_div	{
+		flex: 1 1 100%;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	
+	#my_custom_checkout_field2 .input-block.phoen_state_upper_min_xox {
+		flex-wrap: wrap;
+	}
+	
+	.pin_div .phoen_state_upper .phoen_city_1 {
+		margin-right: 0;
+	}
+	
+	/* popup css */
+	.pincode-pho-popup .pho-pincode,
+	.pincode-pho-popup .phoen_min_lower	{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.pincode-pho-popup  .phoen_state_upper {
+	    justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+}	
+
+@media only screen and (max-width: 380px) {
+	.wc-delivery-time-response .delivery-info .header .phoe-pincode-pro-tick-img img{ margin-right:3px!important;}
+	.wc-delivery-time-response .phoe-green-location-icon {margin-right:0;}
+
+}
+
+
+/********** additional css *********/
+
+form .wc-delivery-time-response .avlpin p{
+	color:#000;
+	margin: 0 8px;
+}
+
+.wc-delivery-time-response .pincode_static_text{
+	font-weight: 400;
+}
+
+#pincode_field_idp label{
+	color: #000;
+	font-weight: 500;
+	display: block;
+	width: 100%;
+	margin-right: 0;
+}
+
+#change_pin.button{
+	margin: -3px 0 0 0;
+}
+
+.wc-delivery-time-response .delivery-info h6{
+	color: #000;
+    font-weight: 400;
+}
+
+#my_custom_checkout_field2 #checkpin.phoen_text_inserted{
+	background:#fff !important;
+	line-height: 46px;
+	float: none !important;
+    display: inline-block;
+	text-transform: capitalize;
+	font-weight:500;
+	position:relative;
+}
+
+/* #my_custom_checkout_field2 .input-block{
+	display: inline-block;
+} */
+
+select#phoen_area_list{
+	background: #fff;
+    border-radius: 0;
+	border: 1px solid #dbd9da;
+	height: 35px;
+	font-weight:500;
+}
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__rendered, .phoen_state_upper .select2-container--default .select2-selection--single .select2-selection__rendered, .pho-option-form .select2-container--default .select2-selection--single .select2-selection__rendered, .phoen_area .select2-container--default .select2-selection--single .select2-selection__rendered, .phoen_city .select2-container--default .select2-selection--single .select2-selection__rendered, .phoen_maie_kked .select2-container--default .select2-selection--single .select2-selection__rendered{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.select2-container--default .select2-selection--single{
+    font-weight: 400;
+	border: 1px solid #dbd9da !important;
+	height: 35px !important;
+	padding-top: 0 !important;
+	border-radius: 0px !important;
+	margin-bottom: 8px;
+	padding-top: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	top: 2px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height: 45px !important;
+	padding-top: 0;
+}
+
+.phoen_state_upper_min_xox span.select2-container--default .select2-selection--single{
+	min-height: 46px;
+}
+
+.phoen_state_upper_min_xox .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 46px;
+}
+
+.phoen_state_upper_min_xox .select2-container--below {
+    width: auto !important;
+}
+
+.pin_div .my-field-class .input-block::before{
+	display:none;
+}
+
+
+
+
+
+
+
